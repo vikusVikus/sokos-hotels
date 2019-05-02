@@ -1,0 +1,30 @@
+.select-room {
+  background-color: #f1eae4;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 60px;
+  gap: 20px 0px;
+}
+
+.selection-info {
+  padding: 20px;
+  font-size: 21px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.selection-type {
+  text-transform: uppercase;
+  text-align: left;
+}
