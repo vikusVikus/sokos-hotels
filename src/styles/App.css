@@ -1,0 +1,13 @@
+.app {
+  text-align: center;
+  background-color: #f8f5f3;
+  max-width: 582px;
+  padding: 2px;
+  margin: 15px;
+}
+
+.inner-border {
+  background-color: transparent;
+  padding: 5px;
+  border: 7px solid #fff;
+}
