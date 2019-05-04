@@ -1,26 +1,35 @@
 import React from "react";
 import "./styles/App.css";
 import SelectRoom from "./components/SelectRoom";
-import RoomList from "./components/RoomList";
+import inputData from "./data/input-data.json";
 
-function App() {
+const App = () => {
+  // TODO: create iterator
+  const { hotels, availableHotels } = inputData;
+  const { hotelId } = availableHotels[0];
+  const availableRoomConfigurations =
+    availableHotels[0].availableRoomConfigurations;
+
   return (
     <div className="app">
       <div className="inner-border">
-        <SelectRoom />
-        <RoomList />
+        {availableRoomConfigurations.map(availableRoomConfiguration => {
+          // TODO replace key with other value then index
+          const index =
+            availableRoomConfigurations.indexOf(availableRoomConfiguration) + 1;
+          const rooms = hotels.filter(hotel => hotel.id === hotelId)[0].rooms;
+          return (
+            <SelectRoom
+              key={index}
+              availableRoomConfiguration={availableRoomConfiguration}
+              rooms={rooms}
+              index={index}
+            />
+          );
+        })}
       </div>
     </div>
   );
-}
+};
 
 export default App;
-
-/*
-TODO add later
-<a
-	className="icon-source-link"
-	href="https://icons8.com/icon/7546/bedroom"
->
-	Bedroom icon by Icons8
-</a>*/

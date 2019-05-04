@@ -2,12 +2,21 @@ import React from "react";
 import Room from "./Room";
 import "../styles/RoomList.css";
 
-const RoomList = () => {
+const RoomList = props => {
+  const roomInformation = roomType =>
+    props.roomsInformation.filter(room => room.type === roomType)[0];
+
   return (
     <div className="room-list">
-      <Room />
-      <Room />
-      <Room />
+      {props.availableRooms.map(availableRoom => {
+        return (
+          <Room
+            key={availableRoom.type}
+            availableRoom={availableRoom}
+            roomInformation={roomInformation}
+          />
+        );
+      })}
     </div>
   );
 };

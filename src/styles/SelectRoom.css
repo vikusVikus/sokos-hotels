@@ -5,7 +5,7 @@
   width: 100%;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-columns: repeat(3, minmax(50px, auto));
   grid-template-rows: 60px;
   gap: 20px 0px;
 }

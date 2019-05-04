@@ -1,18 +1,31 @@
 import React from "react";
 import "../styles/Room.css";
 
-const Room = () => {
+const Room = props => {
+  const roomInformation = props.roomInformation(props.availableRoom.type);
+
+  const minPriceInEuroCents = rates => {
+    let formatter = new Intl.NumberFormat("fi-FI", {
+      style: "currency",
+      currency: "EUR"
+    });
+
+    let minPrice = Math.min(rates.map(rate => rate.price)) / 100;
+
+    return formatter.format(minPrice);
+  };
+
   return (
     <div className="room-row">
       <div>
-        <img
-          className="room-image"
-          src="https://thehappypuppysite.com/wp-content/uploads/2018/07/border-collie-names-SC-long.jpg"
-        />
+        {/* TODO: add slider for image gallery */}
+        <img className="room-image" alt="" src={roomInformation.imageURLs[0]} />
       </div>
       <div className="room-info">
-        <div className="room-name">Standard single kahdelle</div>
-        <div className="room-price"> alk. 180,00 &#8364;</div>
+        <div className="room-name">{roomInformation.title}</div>
+        <div className="room-price">
+          alk. {minPriceInEuroCents(props.availableRoom.rates)}
+        </div>
       </div>
     </div>
   );
