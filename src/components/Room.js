@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Room.css";
 import RoomsSlider from "./RoomsSlider.js";
+import enFi from "../translations/en-fi.json";
 
 const Room = props => {
   const roomInformation = props.roomInformation(props.availableRoom.type);
@@ -19,9 +20,12 @@ const Room = props => {
     <div className="room-row">
       <RoomsSlider images={roomInformation.imageURLs} />
       <div className="room-info">
-        <div className="room-name">{roomInformation.title}</div>
+        <div className="room-name">
+          {enFi[roomInformation.title.toLowerCase()]}
+        </div>
         <div className="room-price">
-          alk. {minPriceInEuroCents(props.availableRoom.rates)}
+          {enFi["starting from"]}{" "}
+          {minPriceInEuroCents(props.availableRoom.rates)}
         </div>
       </div>
     </div>

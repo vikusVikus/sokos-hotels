@@ -1,8 +1,9 @@
 .room-list {
+  width: 90%;
   position: relative;
   display: -ms-grid;
   display: grid;
-  padding: 20px;
+  padding: 28px;
   gap: 30px 0px;
-  grid-auto-rows: 160px;
+  grid-auto-rows: 185px;
 }

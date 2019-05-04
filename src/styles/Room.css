@@ -1,22 +1,26 @@
 .room-row {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 45% 65%;
+  grid-auto-rows: 185px;
   background-color: #fff;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.32);
   border-radius: 7px 7px 7px 7px;
+  width: 100%;
 }
 
 .room-info {
-  padding: 35px;
+  width: 65%;
+  padding: 40px;
   display: block;
   font-weight: bold;
-  font-size: 17px;
 }
 
 .room-name {
+  word-wrap: break-word;
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .room-price {
@@ -27,4 +31,5 @@
   background-color: #ba0b2f;
   color: #fff;
   padding: 5px 12px;
+  font-size: 17px;
 }

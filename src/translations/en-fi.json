@@ -1,0 +1,14 @@
+{
+  "select room": "valitse huone",
+  "adults": "Aikuisia",
+  "children": "Lapsia",
+  "starting from": "alk.",
+  "standard single": "standard single",
+  "standard single for two": "standard single kahdelle",
+  "standard twin": "standard twin",
+  "standard twin, extra bed possibility": "standard twin, lisävuodemahdollisuus",
+  "standard king, extra bed possibility": "standard king, lisävuodemahdollisuus",
+  "superior twin, extra bed possibility": "superior twin, lisävuodemahdollisuus",
+  "superior king, extra bed possibility": "superior king, lisävuodemahdollisuus",
+  "junior suite": "junior suite"
+}
