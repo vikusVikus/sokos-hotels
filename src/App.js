@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles/App.css";
 import HotelImageSlideshow from "./components/HotelImageSlideshow";
-import SelectRoom from "./components/SelectRoom";
+import SelectionConfiguration from "./components/SelectionConfiguration";
 import HotelDescription from "./components/HotelDescription";
 import inputData from "./data/input-data.json";
 import enFi from "./translations/en-fi.json";
@@ -72,7 +72,7 @@ const App = () => {
         {currentAvailableHotel.availableRoomConfigurations.map(
           (availableRoomConfiguration, index) => {
             return (
-              <SelectRoom
+              <SelectionConfiguration
                 key={generateKey(
                   Object.keys(availableRoomConfiguration.configuration)
                 )}

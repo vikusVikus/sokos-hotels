@@ -1,10 +1,10 @@
 import React from "react";
 
 import RoomList from "./RoomList";
-import "../styles/SelectRoom.css";
+import "../styles/SelectionConfiguration.css";
 import enFi from "../translations/en-fi.json";
 
-const SelectRoom = props => {
+const SelectionConfiguration = props => {
   const configurationValue = configuration => {
     let configurationValue = [];
 
@@ -37,4 +37,4 @@ const SelectRoom = props => {
   );
 };
 
-export default SelectRoom;
+export default SelectionConfiguration;
