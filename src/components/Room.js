@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Room.css";
-import RoomsSlider from "./RoomsSlider.js";
+import RoomImageSlideshow from "./RoomImageSlideshow.js";
 import enFi from "../translations/en-fi.json";
 
 const Room = props => {
@@ -18,7 +18,7 @@ const Room = props => {
 
   return (
     <div className="room-row">
-      <RoomsSlider images={roomInformation.imageURLs} />
+      <RoomImageSlideshow images={roomInformation.imageURLs} />
       <div className="room-info">
         <div className="room-name">
           {enFi[roomInformation.title.toLowerCase()]}

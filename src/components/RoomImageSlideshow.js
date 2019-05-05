@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../styles/RoomsSlider.css";
+import "../styles/RoomImageSlideshow.css";
 import imageNotFound from "../images/image-note-found.jpg";
 
-const RoomsSlider = props => {
+const RoomImageSlideshow = props => {
   const imagesLength = props.images.length;
   const slideShowAvailable = imagesLength > 1;
 
@@ -50,4 +50,4 @@ const RoomsSlider = props => {
   );
 };
 
-export default RoomsSlider;
+export default RoomImageSlideshow;
