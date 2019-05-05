@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles/App.css";
+import HotelsSlider from "./components/HotelsSlider";
 import HotelImageSlideshow from "./components/HotelImageSlideshow";
 import SelectionConfiguration from "./components/SelectionConfiguration";
 import HotelDescription from "./components/HotelDescription";
@@ -37,30 +38,13 @@ const App = () => {
     <div className="app">
       <div className="inner-border">
         <div className="hotel-info">
-          <div className="hotels-slider-container">
-            <div className="hotel-slide">
-              <div>
-                <button
-                  className="prev-hotel"
-                  onClick={() =>
-                    changeCurrentAvailableHotel(currentAvailableHotel)
-                  }
-                >
-                  &#10094;
-                </button>
-              </div>
-              <div className="hotel-location">
-                {utils.locationName(currentHotel.name)}
-              </div>
-              <div className="date-range">
-                {utils.dates(
-                  currentAvailableHotel.dateRange.startDate,
-                  currentAvailableHotel.dateRange.endDate
-                )}
-              </div>
-            </div>
-          </div>
-
+          <HotelsSlider
+            name={currentHotel.name}
+            startDate={currentAvailableHotel.dateRange.startDate}
+            endDate={currentAvailableHotel.dateRange.endDate}
+            currentAvailableHotel={currentAvailableHotel}
+            onClick={changeCurrentAvailableHotel}
+          />
           <HotelImageSlideshow images={currentHotel.imageURLs} />
           <HotelDescription
             name={currentHotel.name}

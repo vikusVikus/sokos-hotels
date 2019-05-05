@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/HotelDescription.css";
 import enFi from "../translations/en-fi.json";
 import utils from "../utils";
