@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles/App.css";
+import HotelImageSlideshow from "./components/HotelImageSlideshow";
 import SelectRoom from "./components/SelectRoom";
 import inputData from "./data/input-data.json";
-import imageNotFound from "./images/image-note-found.jpg";
 
 const App = () => {
   // TODO: create iterator
@@ -11,14 +11,6 @@ const App = () => {
   const availableRoomConfigurations =
     availableHotels[0].availableRoomConfigurations;
   const sliderImages = hotels[0].imageURLs;
-
-  const [currentImage, setCurrentImage] = useState(
-    sliderImages.length === 0 ? imageNotFound : sliderImages[0]
-  );
-
-  const onImageChange = index => {
-    setCurrentImage(sliderImages[index]);
-  };
 
   return (
     <div className="app">
@@ -34,23 +26,7 @@ const App = () => {
             </div>
           </div>
 
-          <div>
-            <div className="hotel-images-slideshow-container">
-              <div className="hotel-image-slide">
-                <img alt="hotel" src={currentImage} />
-              </div>
-            </div>
-
-            <div className="button-holder">
-              {sliderImages.map((image, index) => (
-                <span
-                  className="dot"
-                  key={image}
-                  onClick={() => onImageChange(index)}
-                />
-              ))}
-            </div>
-          </div>
+          <HotelImageSlideshow images={sliderImages} />
 
           <div className="hotel-name">Original Sokos hotel Pasila</div>
           <div className="hotel-address">
