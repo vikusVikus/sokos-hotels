@@ -6,7 +6,6 @@ const HotelImageSlideshow = props => {
   const [currentImage, setCurrentImage] = useState(
     props.images.length === 0 ? imageNotFound : props.images[0]
   );
-
   const onImageChange = index => {
     setCurrentImage(props.images[index]);
   };
@@ -19,6 +18,7 @@ const HotelImageSlideshow = props => {
         </div>
       </div>
 
+      {/* TODO highlight dot */}
       <div className="button-holder">
         {props.images.map((image, index) => (
           <span

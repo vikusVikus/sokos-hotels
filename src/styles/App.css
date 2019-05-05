@@ -34,9 +34,9 @@
   left: 0;
 }
 
-.hotel-disrict {
+.hotel-location {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   padding: 9% 0 0 15%;
 }
@@ -44,7 +44,7 @@
 .date-range {
   font-weight: bold;
   padding: 33px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .hotel-name {
@@ -68,7 +68,7 @@
   margin: 40px 0 40px 30px;
 }
 
-.hotel-details > button {
+.hotel-details > a {
   color: #3c3c4a;
   background-color: transparent;
   border-radius: 28px;
@@ -78,6 +78,7 @@
   padding: 12px 31px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   margin-right: 20px;
 }
 

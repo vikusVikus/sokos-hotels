@@ -4,7 +4,7 @@ import "../styles/RoomList.css";
 
 const RoomList = props => {
   const roomInformation = roomType =>
-    props.roomsInformation.filter(room => room.type === roomType)[0];
+    props.roomsInformation.find(room => room.type === roomType);
 
   return (
     <div className="room-list">
