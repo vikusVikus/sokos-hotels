@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./styles/App.css";
 import HotelImageSlideshow from "./components/HotelImageSlideshow";
 import SelectRoom from "./components/SelectRoom";
+import HotelDescription from "./components/HotelDescription";
 import inputData from "./data/input-data.json";
 import enFi from "./translations/en-fi.json";
 import utils from "./utils";
@@ -61,27 +62,11 @@ const App = () => {
           </div>
 
           <HotelImageSlideshow images={currentHotel.imageURLs} />
-
-          <div className="hotel-name">{currentHotel.name}</div>
-          <div className="hotel-address">
-            {utils.address(currentHotel.address)}
-          </div>
-          <div className="hotel-details">
-            <a
-              href={utils.mapLink(currentHotel.address)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {enFi["map"]}
-            </a>
-            <a
-              href={currentHotel.webURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {enFi["get to know the hotel"]}
-            </a>
-          </div>
+          <HotelDescription
+            name={currentHotel.name}
+            address={currentHotel.address}
+            webURL={currentHotel.webURL}
+          />
         </div>
 
         {currentAvailableHotel.availableRoomConfigurations.map(
@@ -92,10 +77,7 @@ const App = () => {
                   Object.keys(availableRoomConfiguration.configuration)
                 )}
                 availableRoomConfiguration={availableRoomConfiguration}
-                rooms={
-                  utils.currentHotel(hotels, currentAvailableHotel.hotelId)
-                    .rooms
-                }
+                rooms={currentHotel.rooms}
                 index={index + 1}
               />
             );
