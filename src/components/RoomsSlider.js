@@ -26,7 +26,7 @@ const RoomsSlider = props => {
 
   return (
     <div className="room-slideshow-container">
-      <div className="room-slides">
+      <div className="room-slide">
         <img className="room-image" alt="" src={currentImage} />
       </div>
 

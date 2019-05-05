@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  font-family: "Helvetica";
+  font-family: Arial, Helvetica, Verdana, sans-serif;
   background-color: #f8f5f3;
   max-width: 582px;
   padding: 2px;
@@ -9,6 +9,147 @@
 
 .inner-border {
   background-color: transparent;
-  padding: 5px;
   border: 7px solid #fff;
+}
+
+/* ----------------------------------*/
+.hotel-slide {
+  background-color: #ba0b2f;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-template-rows: 80px;
+  color: #fff;
+}
+
+.prev-hotel {
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  color: white;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border: none;
+  outline: none;
+  left: 0;
+}
+
+.hotel-disrict {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 9% 0 0 15%;
+}
+
+.date-range {
+  font-weight: bold;
+  padding: 33px;
+  font-size: 20px;
+}
+
+.hotel-images-slideshow-container {
+  position: relative;
+}
+
+.hotel-image-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.hotel-image-slide > img {
+  width: inherit;
+}
+
+.prev-hotel-img,
+.next-hotel-img {
+  cursor: pointer;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #1b1a1a;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bolder;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border: none;
+  user-select: none;
+  outline: none;
+}
+
+.prev-hotel-img {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.next-hotel-img {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev-hotel-img:hover,
+.next-hotel-img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
+
+.hotel-name {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 40px 0 10px 30px;
+  text-align: left;
+  color: #3c3c4a;
+}
+
+.hotel-address {
+  font-size: 21px;
+  margin: 5px 0 10px 30px;
+  text-align: left;
+  color: #3c3c4a;
+}
+
+.hotel-details {
+  display: table;
+  margin: 40px 0 40px 30px;
+}
+
+.hotel-details > button {
+  color: #3c3c4a;
+  background-color: transparent;
+  border-radius: 28px;
+  border: 2px solid #dcdcdc;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 31px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.hotel-details > button:hover {
+  background-color: #fff;
+}
+
+.button-holder {
+  position: relative;
+  top: -30px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
 }
