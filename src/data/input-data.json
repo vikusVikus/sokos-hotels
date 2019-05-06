@@ -82,6 +82,173 @@
           ]
         }
       ]
+    },
+    {
+      "id": "123456788",
+      "name": "Sokos Hotel Tapiola Garden",
+      "address": {
+        "street": "Tapionaukio 3",
+        "city": "Espoo",
+        "postCode": "02100",
+        "country": "FI"
+      },
+      "webURL": "https://www.sokoshotels.fi/fi/espoo/sokos-hotel-tapiola-garden?gclid=CjwKCAjwk7rmBRAaEiwAhDGhxM6cBPrtiijZ1x_6shRKGO_cDHumSUH07aliN62FwVj7TKnkcCT38hoCS8cQAvD_BwE&gclsrc=aw.ds",
+      "imageURLs": [
+        "https://testsipa.s-palvelut.fi/?checksum=68d46ef2cba82385af8e841fe83b0bd8&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fqa.laari.sok.fi%2Fdocuments%2F419563%2F423076%2Fj%25C3%25A4%25C3%25A4kiekko_huone_original_sokoshotel_pasila.jpg%2F5eaca681-ccb8-4e69-9201-4ccb7ee59953%3Ft%3D1447831262000",
+        "https://testsipa.s-palvelut.fi/?checksum=959095cd42e1e9b8b468eea2a3156ed1&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fqa.laari.sok.fi%2Fdocuments%2F419563%2F423076%2Foutside_original_sokos_hotel_pasila_helsinki.jpg%2Fd952b111-e823-4e12-b7b6-2e8f70443101%3Ft%3D1381825715000",
+        "https://testsipa.s-palvelut.fi/?checksum=4c2b44969128cadef9b6bff12bb7024a&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fqa.laari.sok.fi%2Fdocuments%2F419563%2F0%2FGreenKey_Py%25C3%25B6r%25C3%25A4%2F4c490ac6-98a7-4ee2-bd1d-1c5bd97d3df6%3Ft%3D1533038289415"
+      ],
+      "rooms": [
+        {
+          "type": "A1",
+          "title": "Standard Single",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=27ffd39a0615591a2934d2b649727304&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FASN.jpg%2F42b78d43-f86b-4cbc-a33c-e028413563e0"
+          ]
+        },
+        {
+          "type": "A2",
+          "title": "Standard Single for two",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=4c966983578f511a4d3a2ecbc26de180&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FSS2.jpg%2F816d2bf7-e615-4b23-9b6a-5d7c4cedb2a1"
+          ]
+        },
+        {
+          "type": "A3",
+          "title": "Standard Twin",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=4bfacb0f43deada93fb474298a63b270&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FATN.jpg%2F760244c1-b54f-4d1b-a41c-2ca371f94f58"
+          ]
+        },
+        {
+          "type": "A4",
+          "title": "Standard Twin, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=80eba1f28cae808cf7af47df53abed8c&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARN.jpg%2F1dadadd0-2215-43dc-b926-712a38fae085"
+          ]
+        },
+        {
+          "type": "A5",
+          "title": "Standard King, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=9f05b5b603ba587e62a9b3d063095930&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARD.jpg%2F9a8aad3f-729f-4be7-957e-eaf0e8c9e38e",
+            "https://testsipa.s-palvelut.fi/?checksum=3327f73fe840daac3b9beef5c159c308&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARD_1.jpg%2F12977254-2919-4b4a-9dc7-3d1799de7011"
+          ]
+        },
+        {
+          "type": "A6",
+          "title": "Superior Twin, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=38ed7563e358bc1962af98c72e64008e&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FBRN.jpg%2Fb36d4667-1f62-43cb-9b25-77c4437b6c95"
+          ]
+        },
+        {
+          "type": "A7",
+          "title": "Superior King, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=950cab2653a4bc0af920211c7a229bac&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FBRD.jpg%2F7c661474-da77-41b7-94a1-26c08e79e17a"
+          ]
+        },
+        {
+          "type": "A8",
+          "title": "Junior Suite",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=bfe67bcf78b8506ab2c7293c0677447f&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FDRD.jpg%2F8964679c-9ebf-4adf-ae50-ee401bd2d26b",
+            "https://testsipa.s-palvelut.fi/?checksum=63b9e89820cbd880596ad70bc8359e20&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FDRD_1.jpg%2F37c8e824-143f-4024-b2f0-5aa2c73b0317"
+          ]
+        },
+        {
+          "type": "A9",
+          "title": "Suite",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=0567296af67d8515b52bf36856039ec2&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FT3K.jpg.jpg%2F372eeac5-59f1-4544-bba8-52bfecaf006d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "123456787",
+      "name": "Sokos Hotel Seurahuone",
+      "address": {
+        "street": "Kaivokatu 12",
+        "city": "Helsinki",
+        "postCode": "00100",
+        "country": "FI"
+      },
+      "webURL": "https://www.sokoshotels.fi/en/turku/sokos-hotel-seurahuone",
+      "imageURLs": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Stockmann%2C_Helsinki_2013.jpg/1024px-Stockmann%2C_Helsinki_2013.jpg",
+        "https://pix10.agoda.net/hotelImages/244/2447/2447_1112151848005166453.jpg?s=1024x768",
+        "http://www.saint-petersburg.com/images/hotels/sokos-hotel-olympic-garden/sokos-hotel-olympic-garden-st-petersburg.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/Helsingin_keskustan_sokos.jpg"
+      ],
+      "rooms": [
+        {
+          "type": "A1",
+          "title": "Standard Single",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=27ffd39a0615591a2934d2b649727304&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FASN.jpg%2F42b78d43-f86b-4cbc-a33c-e028413563e0"
+          ]
+        },
+        {
+          "type": "A2",
+          "title": "Standard Single for two",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=4c966983578f511a4d3a2ecbc26de180&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FSS2.jpg%2F816d2bf7-e615-4b23-9b6a-5d7c4cedb2a1"
+          ]
+        },
+        {
+          "type": "A3",
+          "title": "Standard Twin",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=4bfacb0f43deada93fb474298a63b270&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FATN.jpg%2F760244c1-b54f-4d1b-a41c-2ca371f94f58"
+          ]
+        },
+        {
+          "type": "A4",
+          "title": "Standard Twin, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=80eba1f28cae808cf7af47df53abed8c&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARN.jpg%2F1dadadd0-2215-43dc-b926-712a38fae085"
+          ]
+        },
+        {
+          "type": "A5",
+          "title": "Standard King, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=9f05b5b603ba587e62a9b3d063095930&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARD.jpg%2F9a8aad3f-729f-4be7-957e-eaf0e8c9e38e",
+            "https://testsipa.s-palvelut.fi/?checksum=3327f73fe840daac3b9beef5c159c308&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FARD_1.jpg%2F12977254-2919-4b4a-9dc7-3d1799de7011"
+          ]
+        },
+        {
+          "type": "A6",
+          "title": "Superior Twin, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=38ed7563e358bc1962af98c72e64008e&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FBRN.jpg%2Fb36d4667-1f62-43cb-9b25-77c4437b6c95"
+          ]
+        },
+        {
+          "type": "A7",
+          "title": "Superior King, extra bed possibility",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=950cab2653a4bc0af920211c7a229bac&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FBRD.jpg%2F7c661474-da77-41b7-94a1-26c08e79e17a"
+          ]
+        },
+        {
+          "type": "A8",
+          "title": "Junior Suite",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=bfe67bcf78b8506ab2c7293c0677447f&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FDRD.jpg%2F8964679c-9ebf-4adf-ae50-ee401bd2d26b",
+            "https://testsipa.s-palvelut.fi/?checksum=63b9e89820cbd880596ad70bc8359e20&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FDRD_1.jpg%2F37c8e824-143f-4024-b2f0-5aa2c73b0317"
+          ]
+        },
+        {
+          "type": "A9",
+          "title": "Suite",
+          "imageURLs": [
+            "https://testsipa.s-palvelut.fi/?checksum=0567296af67d8515b52bf36856039ec2&highDensity=true&maxWidth=1440&url=https%3A%2F%2Fsokoshotels-test.s-palvelut.fi%2Fdocuments%2F30003%2F252337%2FT3K.jpg.jpg%2F372eeac5-59f1-4544-bba8-52bfecaf006d"
+          ]
+        }
+      ]
     }
   ],
   "availableHotels": [
@@ -133,7 +300,15 @@
                   "price": 23100
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "configuration": {
+            "adults": 1,
+            "children": 2
+          },
+          "availableRooms": [
             {
               "type": "A3",
               "rates": [
@@ -142,16 +317,42 @@
                   "price": 23100
                 }
               ]
-            },
-            {
-              "type": "A4",
-              "rates": [
-                {
-                  "ratePlan": "ABC",
-                  "price": 23100
-                }
-              ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotelId": "123456788",
+      "dateRange": {
+        "startDate": "2019-11-04",
+        "endDate": "2019-11-05"
+      },
+      "ratePlans": {
+        "ABC": {
+          "description": {
+            "title": "Daily Rate",
+            "subTitle": "The room price includes",
+            "items": [
+              "accommodation for the number of people shown on the reservation",
+              "breakfast",
+              "opportunity to use the sauna during the hotel's customer sauna hours",
+              "broadband access"
+            ]
+          },
+          "condition": {
+            "title": "Special conditions for the price",
+            "items": ["to be paid in cash or with a card"]
+          },
+          "cancellationTime": "2019-12-04T18:00:00"
+        }
+      },
+      "availableRoomConfigurations": [
+        {
+          "configuration": {
+            "adults": 2
+          },
+          "availableRooms": [
             {
               "type": "A5",
               "rates": [
@@ -247,6 +448,85 @@
                 {
                   "ratePlan": "ABC",
                   "price": 29300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hotelId": "123456787",
+      "dateRange": {
+        "startDate": "2019-10-04",
+        "endDate": "2019-10-15"
+      },
+      "ratePlans": {
+        "ABC": {
+          "description": {
+            "title": "Daily Rate",
+            "subTitle": "The room price includes",
+            "items": [
+              "accommodation for the number of people shown on the reservation",
+              "breakfast",
+              "opportunity to use the sauna during the hotel's customer sauna hours",
+              "broadband access"
+            ]
+          },
+          "condition": {
+            "title": "Special conditions for the price",
+            "items": ["to be paid in cash or with a card"]
+          },
+          "cancellationTime": "2019-12-04T18:00:00"
+        }
+      },
+      "availableRoomConfigurations": [
+        {
+          "configuration": {
+            "adults": 2
+          },
+          "availableRooms": [
+            {
+              "type": "A7",
+              "rates": [
+                {
+                  "ratePlan": "ABC",
+                  "price": 26100
+                }
+              ]
+            },
+            {
+              "type": "A8",
+              "rates": [
+                {
+                  "ratePlan": "ABC",
+                  "price": 28300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "configuration": {
+            "adults": 1,
+            "children": 2
+          },
+          "availableRooms": [
+            {
+              "type": "A3",
+              "rates": [
+                {
+                  "ratePlan": "ABC",
+                  "price": 23100
+                }
+              ]
+            },
+            {
+              "type": "A4",
+              "rates": [
+                {
+                  "ratePlan": "ABC",
+                  "price": 24100
                 }
               ]
             }

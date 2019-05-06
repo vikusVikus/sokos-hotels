@@ -6,6 +6,7 @@ import SelectionConfiguration from "./components/SelectionConfiguration";
 import HotelDescription from "./components/HotelDescription";
 import inputData from "./data/input-data.json";
 import utils from "./utils";
+import imageNotFound from "./images/image-note-found.jpg";
 
 const App = () => {
   const { hotels, availableHotels } = inputData;
@@ -14,6 +15,12 @@ const App = () => {
   );
   const [currentHotel, setCurrentHotel] = useState(
     utils.currentHotel(hotels, currentAvailableHotel.hotelId)
+  );
+
+  const [currentImage, setCurrentImage] = useState(
+    currentHotel.imageURLs.length === 0
+      ? imageNotFound
+      : currentHotel.imageURLs[0]
   );
 
   const changeCurrentAvailableHotel = hotel => {
@@ -27,6 +34,11 @@ const App = () => {
     setCurrentHotel(
       utils.currentHotel(hotels, newCurrentAvailableHotel.hotelId)
     );
+    setCurrentImage(currentHotel.imageURLs[0]);
+  };
+
+  const changeSlideShowImage = index => {
+    setCurrentImage(currentHotel.imageURLs[index]);
   };
 
   const generateKey = pre => {
@@ -44,7 +56,11 @@ const App = () => {
             currentAvailableHotel={currentAvailableHotel}
             onClick={changeCurrentAvailableHotel}
           />
-          <HotelImageSlideshow images={currentHotel.imageURLs} />
+          <HotelImageSlideshow
+            currentImage={currentImage}
+            images={currentHotel.imageURLs}
+            onClick={changeSlideShowImage}
+          />
           <HotelDescription
             name={currentHotel.name}
             address={currentHotel.address}
