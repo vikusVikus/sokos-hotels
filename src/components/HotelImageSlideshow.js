@@ -18,12 +18,17 @@ const HotelImageSlideshow = props => {
         </div>
       </div>
 
-      {/* TODO highlight dot */}
       <div className="button-holder">
         {props.images.map((image, index) => (
           <span
             className="dot"
             key={image}
+            style={{
+              backgroundColor:
+                image === currentImage
+                  ? "rgba(0, 0, 0, 0.5)"
+                  : "rgba(255, 255, 255, 0.5)"
+            }}
             onClick={() => onImageChange(index)}
           />
         ))}
